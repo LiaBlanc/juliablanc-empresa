@@ -109,8 +109,8 @@ color: #9932CC;
 margin-bottom: 20px;
 }
 
-.horario-entrega {
-margin-top: 20px;
+.horario-estrega{
+  margin-top: 20px;
 }
 
 table {
@@ -130,5 +130,13 @@ background-color: #BA55D3;
 }
 
 .estregas {
+  color: #4B0082;
+}
+
+.abertos{
+  margin-top: 20px;
+}
+
+.dia {
   color: #4B0082;
 }
