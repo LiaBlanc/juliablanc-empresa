@@ -1,0 +1,134 @@
+
+.caixa{
+  max-width: 800px;
+  margin: 20px auto;
+  overflow: hidden
+  float: left
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: #9400D3;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.enviar:hover{
+  background: indigo;
+  transform: scale(1.1);
+}
+
+.table {
+  margin: 20px 0 40px;
+}
+
+thead{
+  background: #BA55D3;
+  color: white;
+  font-weight: bold;
+}
+
+th, td {
+  border: 2px solid #000000;
+  padding: 10px 15px;
+}
+
+.titulo-principal{
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.principal {
+  background: #FEFEFE;
+  padding: 1em 0;
+  width: 0 auto;
+}
+
+.principal p{
+  margin: 0 0 1em;
+}
+
+.principal strong{
+  font-weight: bold;
+}
+
+.principal em{
+  font-style: italic;
+}
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f0f0;
+}
+
+.container {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+text-align: center;
+color: #9932CC;
+}
+
+.empresa-info {
+margin-bottom: 20px;
+}
+
+.horario-entrega {
+margin-top: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 10px;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th {
+background-color: #BA55D3;
+}
+
+.estregas {
+  color: #4B0082;
+}

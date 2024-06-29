@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="produtos.css">
+
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f0f0f0;
+      }
+
+      header {
+          background-color: #9400D3;
+          color: #fff;
+          padding: 10px 20px;
+          text-align: center;
+      }
+
+      .container {
+          max-width: 1200px;
+          margin: 20px auto;
+          padding: 0 20px;
+      }
+
+      .content {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+      }
+
+      .product {
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          border-radius: 5px;
+          padding: 20px;
+          margin: 10px;
+          width: calc(33.33% - 20px);
+          text-align: center;
+      }
+
+      .product img {
+          max-width: 100%;
+          border-radius: 5px;
+      }
+
+      footer {
+          background-color: #4B0082;
+          color: #fff;
+          text-align: center;
+          padding: 40px 0;
+          margin-top: 20px;
+      }
+
+      .caixa{
+      max-width: 800px;
+      margin: 20px auto;
+      overflow: hidden
+      float: left
+      }
+
+      nav{
+      overflow: hidden;
+      position: absolute;
+      top: 110px;
+      right: 0;
+      }
+
+      nav li{
+      display: inline;
+      margin-left: 15px;
+          }
+
+      nav a{
+      color: #F8F8FF;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 22px;
+      text-transform: uppercase;
+      }  
+
+      nav a:hover{
+      color: Indigo;
+      text-decoration: underline;
+      }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="caixa"><h1> <img src="logodois.png"> </h1>
+
+      <nav>
+        <ul>
+          <li> <a href="index.html"> Produtos </a> </li>
+          <li> <a href="produtos.html"> Contatos </a> </li>
+          <li> <a href="informacao.html"> Informações </a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+<form>
+  <fieldset>
+  <label for="nomeSobrenome"> Nome e Sobrenome </label>
+  <input type="text" id="nomeSobrenome" class="input-padrao" required>
+
+  <label for="email"> Email </label>
+  <input type="email" id ="email" class="input-padrao" placeholder="xxxxxxxxx@gmail.com" required>
+
+  <label for="telefone"> Telefone </label>
+  <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+
+  <label for="mensagem"> Mensagem </label>
+  <textarea id="mensagem" class="input-padrao" placeholder="Deixe aqui sua mensagem."></textarea>
+    </fieldset>
+
+<fieldset>
+  <legend>Como preferem o nosso contato?</legend>
+
+  <label for="radio-email"> <input type="radio" name="contato" value="email" id="email-radio"> Email</label>
+
+  <label for="radio-telefone"> <input type="radio" name="contato" value="contato" id="radio-telefone"> Telefone</label>
+
+   <label for="radio-whatsapp"> <input type="radio" name="whatsapp" value="contato" id="radio-whatsapp" checked> Whatsapp</label>
+  </fieldset>
+
+  <legend> Qual horário você prefere ser atendido? </legend>
+  <select>
+    <option> Manhã </option>
+    <option> Tarde </option>
+    <option> Noite </option>
+  </select>
+
+  <label> <input type="checkbox" checked> Gostaria de receber nossas novidades por email? </label>
+  <input type="submit" class="enviar" value="Enviar o Formulário">
+
+</form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Dia da semana</th>
+          <th>Horário</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>Segunda</td>
+          <td>8h - 13h</td>
+        </tr>
+        
+        <tr>
+          <tr>
+            <td>Terça</td>
+            <td>8h - 13h</td>
+          </tr>
+        
+          <tr>
+          <td>Quarta</td>
+          <td>8h - 13h</td>
+        </tr>
+        
+        <tr>
+            <td>Quinta</td>
+            <td>8h - 13h</td>
+          </tr>
+        
+          <tr>
+          <td>Sexta</td>
+          <td>8h - 13h</td>
+        </tr>
+
+
+        <tr>
+          <td>Sábado </td>
+          <td>Fechado</td>
+        </tr>
+
+
+        <tr>
+          <td>Domingo</td>
+          <td>Fechado</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </main>
+
+  <footer>
+    <img src="logo.png">
+    <p class="logo"> &#169; Copyrithg Brechó Blanc - 2024</p>
+  </footer>
+</body>
+
+</html>
